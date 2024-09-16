@@ -8,7 +8,7 @@ namespace Book_Online_Shop
 {
     public class OrderedBooks
     {
-        public string BookName { get; set; }
+        public string Name { get; set; }
         public int NumberOfCopies { get; set; }
 
     }

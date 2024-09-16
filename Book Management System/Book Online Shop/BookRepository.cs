@@ -133,7 +133,7 @@ namespace Book_Online_Shop
             {
                 OrderedBooks book = new OrderedBooks
                 {
-                    BookName = row["BookName"].ToString(),
+                    Name = row["BookName"].ToString(),
                     NumberOfCopies = Convert.ToInt32(row["NumberOfCopies"])
                 };
                 orderedBooks.Add(book);

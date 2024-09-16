@@ -23,8 +23,18 @@ namespace book_Online_Shop_Form
         {
             this.LoggingUserType = LoggingUserType;
             InitializeComponent();
-            textBox1.Text = "password2";
-            textBox2.Text = "User2";
+            if (LoggingUserType == UserType.Admin)
+            {
+                textBox1.Text = "password1";
+                textBox2.Text = "User1";
+            }
+            else
+            {
+
+                textBox1.Text = "password2";
+                textBox2.Text = "User2";
+
+            }
         }
 
         public LoginPage()
